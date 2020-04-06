@@ -25,3 +25,9 @@ db.people.save({ firstname: "Gustavo", lastname: "Silva" })
 db.people.find()
 db.people.find({ firstname: "Gustavo" })
 ```
+
+## Starting project
+```
+Frontend - Ler o README.md do frontend 
+Backend  - Ler o README.md do backend
+```

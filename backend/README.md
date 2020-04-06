@@ -1,7 +1,8 @@
 # treinaquarkus-mongo-basico
 
-## Project setup
+## Project start
 ```
+cd backend
 ./mvnw compile quarkus:dev
 ```
 
