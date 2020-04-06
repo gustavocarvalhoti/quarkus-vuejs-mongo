@@ -13,7 +13,7 @@ mvn -v
 ###install mongo
 docker pull mongo
 docker run -d -p 27017-27019:27017-27019 --name mongodb mongo
-docker exec -it mongo-db bash <- Acessar o container
+docker exec -it mongodb bash <- Acessar o container
 ```
 
 ## Comandos Mongo - Testando SQL
