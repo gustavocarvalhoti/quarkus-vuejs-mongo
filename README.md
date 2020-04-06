@@ -1,13 +1,27 @@
 # testando-quarkus-padtec
-# Comandos Docker Mongo
-docker pull mongo <br/>
-docker run --name mongodb mongo <- Usar o de baixo <br/>
-docker run -d -p 27017-27019:27017-27019 --name mongodb mongo <br/>
-docker exec -it mongo-db bash <br/>
 
-# Comandos $mongo - Testando SQL
-show dbs <br/>
-use thepolyglotdeveloper <br/>
-db.people.save({ firstname: "Gustavo", lastname: "Silva" }) <br/>
-db.people.find() <br/>
-db.people.find({ firstname: "Gustavo" }) <br/>
+## Config project
+```
+###install docker 
+https://docs.docker.com/install/linux/docker-ce/ubuntu/
+Não esquecer esse -> sudo usermod -aG docker your-user-here
+
+###install maven 
+sudo apt-get install maven
+mvn -v
+
+###install mongo
+docker pull mongo
+docker run -d -p 27017-27019:27017-27019 --name mongodb mongo
+docker exec -it mongo-db bash <- Acessar o container
+```
+
+## Comandos Mongo - Testando SQL
+```
+mongo
+show dbs 
+use thepolyglotdeveloper
+db.people.save({ firstname: "Gustavo", lastname: "Silva" })
+db.people.find()
+db.people.find({ firstname: "Gustavo" })
+```
