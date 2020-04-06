@@ -30,4 +30,6 @@ db.people.find({ firstname: "Gustavo" })
 ```
 Frontend - Ler o README.md do frontend 
 Backend  - Ler o README.md do backend
+sudo netstat -tlpn | grep 5005  <- The Walkind Dead Port
+kill -9 'process'
 ```
