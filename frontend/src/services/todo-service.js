@@ -40,7 +40,6 @@ export default class TodoService {
     }
 
     static delete(task) {
-        debugger;
         return TodoService._http.delete(`/${task.id}`);
     }
 

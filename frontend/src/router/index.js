@@ -2,12 +2,18 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import TodoList from '../views/TodoList.vue'
 import TodoMaintenance from '../views/TodoMaintenance.vue'
+import HomePage from '../views/HomePage'
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: '/',
+    name: 'Home',
+    component: HomePage
+  },
+  {
+    path: '/todo',
     name: 'todo-list',
     component: TodoList
   },
