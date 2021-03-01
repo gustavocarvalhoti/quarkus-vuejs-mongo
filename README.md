@@ -1,4 +1,4 @@
-# testando-quarkus-padtec (Ubuntu)
+# Testando Quarkus (Ubuntu)
 
 ## Config project
 ```
